@@ -38,14 +38,54 @@
           </tr>
           <tr>
               <td>{{ PI }}</td>
-              <td>number '3.0-0'</td>
+              <td>number:'3.0-0'</td>
               <td>{{ PI | number:'3.0-0' }}</td>
             </tr>
             <tr>
                 <td>{{ PI }}</td>
-                <td>number '1.0-2'</td>
+                <td>number:'1.0-2'</td>
                 <td>{{ PI | number:'1.0-2' }}</td>
               </tr>
+              <tr>
+                  <td>{{ a }}</td>
+                  <td>percent</td>
+                  <td>{{ a | percent }}</td>
+                </tr>
+                <tr>
+                    <td>{{ a }}</td>
+                    <td>percent:'2.2-4'</td>
+                    <td>{{ a | percent:'2.2-4' }}</td>
+                  </tr>
+                  <tr>
+                      <td>{{ a }}</td>
+                      <td>percent '2.2-4'</td>
+                      <td>{{ a | percent:'2.2-4' }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ salario }}</td>
+                        <td>currency</td>
+                        <td>{{ salario | currency }}</td>
+                      </tr>
+                      <tr>
+                          <td>{{ salario }}</td>
+                          <td>currency:'EUR'</td>
+                          <td>{{ salario | currency:'EUR' }}</td>
+                        </tr>
+                        <tr>
+                            <td>{{ salario }}</td>
+                            <td>currency:'MXN':true</td>
+                            <td>{{ salario | currency:'MXN':true }}</td>
+                          </tr>
+                          <tr>
+                              <td>{{ salario }}</td>
+                              <td>currency:'MXN':true:'4.0-0'</td>
+                              <td>{{ salario | currency:'MXN':true:'4.0-0' }}</td>
+                            </tr>
+                            <tr>
+                                <td>{{ salario }}</td>
+                                <td>number:'.2-2'</td>
+                                <td>{{ salario | number:'.2-2' }}</td>
+                              </tr>
     </tbody>
   </table>
 
