@@ -14,4 +14,21 @@ export class AppComponent {
   a:number = 0.234;
 
   salario = 1234.5;
+
+  heroe={
+    nombre:"Daniel",
+    apellido:"Juarez",
+    edad:22,
+    direccion:{
+      calle:"España",
+      numero:5000,
+      colonia:"Mundial"
+    }
+  }
+
+
+valorPromesa = new Promise((resolve, reject)=>{
+  setTimeout( ()=>resolve('LLego la data'),3500 );
+})
+
 }
