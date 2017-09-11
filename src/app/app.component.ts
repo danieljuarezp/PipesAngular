@@ -33,4 +33,8 @@ valorPromesa = new Promise((resolve, reject)=>{
 
 fecha = new Date();
 
+nombre2 = "dAnIel  jUaRez"
+
+video = "KYElZJb09Qk";
+
 }

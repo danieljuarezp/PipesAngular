@@ -106,6 +106,11 @@
                                         <td>date:'dd - MMMM - y'</td>
                                         <td>{{ fecha | date:'dd - MMMM - y'  }}</td>
                                       </tr>
+                                        <tr>
+                                            <td>{{ nombre2 }}</td>
+                                            <td>capitalizado:false</td>
+                                            <td>{{ nombre2 | capitalizado:false  }}</td>
+                                          </tr>
     </tbody>
   </table>
 
@@ -125,4 +130,9 @@
     {{heroe | json}}
   </pre>
   <h1>{{heroe.nombre}} | {{heroe.direccion.numero}}</h1>
+
+  <br>
+  <h1>Video <small>YouTube</small></h1>
+  <br>
+  <iframe width="560" height="315" [src]="video | domseguro:'https://www.youtube.com/embed/'" frameborder="0" allowfullscreen></iframe>
 </div>
