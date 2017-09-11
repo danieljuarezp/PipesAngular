@@ -37,4 +37,6 @@ nombre2 = "dAnIel  jUaRez"
 
 video = "KYElZJb09Qk";
 
+activar = true;
+
 }

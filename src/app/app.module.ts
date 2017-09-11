@@ -5,12 +5,14 @@ import {capitalizadoPipe} from "./pipes/capitalizado.pipe";
 
 import { AppComponent } from './app.component';
 import { DomseguroPipe } from './pipes/domseguro.pipe';
+import { ContrasenaPipe } from './pipes/contrasena.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     capitalizadoPipe,
-    DomseguroPipe
+    DomseguroPipe,
+    ContrasenaPipe
   ],
   imports: [
     BrowserModule
